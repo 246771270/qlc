@@ -21,7 +21,7 @@ cron "35 1,23 * * *" script-path=jd_nzmh.js,tag=女装盲盒
 女装盲盒 = type=cron,script-path=jd_nzmh.js, cronexpr="35 1,23 * * *", timeout=3600, enable=true
  */
 
-const $ = new Env('程序工厂-女装盲盒抽京豆');
+const $ = new Env('程序工厂_女装盲盒抽京豆');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;

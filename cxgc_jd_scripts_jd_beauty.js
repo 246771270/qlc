@@ -6,7 +6,7 @@
 脚本兼容: Node.js
 cron 1 7,12,19 * * * jd_beauty.js
  */
-const $ = new Env('程序工厂-美丽研究院');
+const $ = new Env('程序工厂_美丽研究院');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
