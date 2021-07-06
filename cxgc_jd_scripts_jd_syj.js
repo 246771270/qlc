@@ -19,7 +19,7 @@ cron "10 0,7,23 * * *" script-path=jd_syj.js, tag=赚京豆
 ============小火箭=========
 赚京豆 = type=cron,script-path=jd_syj.js, cronexpr="10 0,7,23 * * *", timeout=3600, enable=true
  */
-const $ = new Env('赚京豆');
+const $ = new Env('程序工厂-赚京豆');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;

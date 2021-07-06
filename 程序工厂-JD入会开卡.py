@@ -172,11 +172,11 @@ requests.packages.urllib3.disable_warnings()
 scriptHeader = """
 ════════════════════════════════════════
 ║                                      ║
-║      JD   入   会   领   豆           ║
+║      JD   入   会   领   豆          ║
 ║                                      ║
 ════════════════════════════════════════
 @Version: {}""".format(version)
-remarks = '\n\n\tTG交流 : https://t.me/topstyle996\n\n\tTG频道 : https://t.me/TopStyle2021\n\n\t公众号 : TopStyle\n\n\t\t\t--By Curtin\n'
+remarks = '\n\n\t公众号 : 程序工厂\n\n\t\t\n'
 
 timestamp = int(round(time.time() * 1000))
 today = datetime.datetime.now().strftime('%Y-%m-%d')
