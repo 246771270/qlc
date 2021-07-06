@@ -411,6 +411,7 @@ headers: {
         });
     });
 }
+
 function openinvite() {
     return new Promise(async (resolve) => {
 
