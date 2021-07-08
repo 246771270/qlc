@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/smiek2221/scripts/master/MovementFaker.js
 解密脚本 跟 任务脚本同一目录 可以手动下载
 
 */
-const $ = new Env('燃动夏季');
+const $ = new Env('燃动夏季2');
 const MovementFaker = require('./246771270_qlc_MovementFaker.js')
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
