@@ -10,7 +10,6 @@ TG交流 https://t.me/topstyle996
 TG频道 https://t.me/TopStyle2021
 update: 2021.7.4 08:36
 * 修复了助力活动不存在、增加了随机UA（如果未定义ua则启用随机UA）
-
 '''
 
 #ck 优先读取【JDCookies.txt】 文件内的ck  再到 ENV的 变量 JD_COOKIE='ck1&ck2' 最后才到脚本内 cookies=ck

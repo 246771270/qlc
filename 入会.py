@@ -1,5 +1,4 @@
 #!/bin/env python3
-# -*- coding: utf-8 -*
 '''
 项目名称: JD_OpenCard
 Author: Curtin
